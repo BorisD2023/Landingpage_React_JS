@@ -22,8 +22,16 @@ main{
     gap: 8rem;
 }
 
+.brand article{
+    justify-self: center;
+}
+
 .brand h5{
     font-size: 2.5vw;
+}
+
+.box{
+    width: 30vw;
 }
 
 .brand img{
