@@ -14,14 +14,14 @@ const Main = () => {
             <section className='brand'>
                 <article>
                     <section>
-                    <img src={brush} alt="brush" />
+                    <img className='brush' src={brush} alt="brush" />
                     <div className='box'>
                     <h5>Brand Identity</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit est corporis labore earum quos saepe temporibus hic eius doloremque. Suscipit voluptas magnam officiis ea dolor perferendis minus nemo, amet ut?</p>
                     </div>
                     </section>
                     <section>
-                    <img src="./src/assets/img/megaphone.svg" alt="megaphone" />
+                    <img className='megaphone' src={megaphone} alt="megaphone" />
                     <div className='box'>
                     <h5>Marketing</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit est corporis labore earum quos saepe temporibus hic eius doloremque. Suscipit voluptas magnam officiis ea dolor perferendis minus nemo, amet ut?</p>
@@ -30,14 +30,14 @@ const Main = () => {
                 </article>
                 <article>
                     <section>
-                    <img src="./src/assets/img/object-select.svg" alt="select" />
+                    <img className='select' src={select} alt="select" />
                     <div className='box'>
                     <h5>illustration</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit est corporis labore earum quos saepe temporibus hic eius doloremque. Suscipit voluptas magnam officiis ea dolor perferendis minus nemo, amet ut?</p>
                     </div>
                     </section>
                     <section>
-                    <img src="./src/assets/img/globe-line.svg" alt="globe" />
+                    <img className='globe' src={globe} alt="globe" />
                     <div className='box'>
                     <h5>Web Design</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit est corporis labore earum quos saepe temporibus hic eius doloremque. Suscipit voluptas magnam officiis ea dolor perferendis minus nemo, amet ut?</p>

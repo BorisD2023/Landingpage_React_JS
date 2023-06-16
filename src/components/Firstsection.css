@@ -48,3 +48,61 @@ main{
 .brand section{
     display: flex;
 }
+
+/* Animation */
+
+.brush{
+    animation: move 3s infinite linear ;
+}
+
+.megaphone{
+    animation: scale 2s infinite ease-in-out ;
+}
+
+.select{
+    animation: turn 1.5s infinite ease-in-out ;
+}
+
+.globe{
+    animation: rotate 3.5s infinite linear;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-2rem)
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes scale{
+    from{
+        transform: rotate(0deg);
+        transform: scale(0);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes turn{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
